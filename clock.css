@@ -1,0 +1,47 @@
+*{
+    background: url(3d-sod-bullet-points.webp) no-repeat;
+    background-size: 100%;
+}
+#clock{
+    position: relative;
+    background: url(clock.webp) no-repeat;
+     filter: invert(100%);
+    border-radius: 23vw;
+    height: 44vw;
+    width: 44vw;
+    background-size: 100%;
+    margin: auto;
+    /* border: 2px solid red; */
+}
+#hour, #minute, #second{
+    position: absolute;
+    background: #0a0a0a;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour{
+    width: 1.25%;
+    height: 16%;
+    top: 34%;
+    left: 49.23%;
+    /* display: none; */
+}
+
+#minute{
+    width: 1%;
+    height: 20%;
+    background: #11adf7;
+    top: 30%;
+    left: 49.23%;
+    opacity: 0.7;
+    /* display: none; */
+}
+
+#second{
+    width: 0.5%;
+    height: 23%;
+    top: 27%;
+    left: 49.23%;
+    background: #eb391c;
+}
